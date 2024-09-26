@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
+  box-sizing: border-box; /* Incluir padding y border en el ancho total */
 }
 
 .App-header {
@@ -20,6 +21,7 @@
   width: 100%;
   max-width: 600px;
   animation: fadeIn 1s ease-in-out;
+  box-sizing: border-box; /* Incluir padding y border en el ancho total */
 }
 
 .App-header h1 {
@@ -37,6 +39,7 @@
   animation: fadeIn 1s ease-in-out;
   width: 100%;
   max-width: 600px;
+  box-sizing: border-box; /* Incluir padding y border en el ancho total */
 }
 
 .resistance-table h2 {

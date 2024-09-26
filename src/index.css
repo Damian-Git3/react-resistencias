@@ -22,4 +22,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 10px; /* Añadir padding para evitar que los elementos estén pegados a los bordes */
+  box-sizing: border-box; /* Incluir padding y border en el ancho total */
 }
