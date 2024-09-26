@@ -1,0 +1,35 @@
+.band {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.color-select {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  background-color: #fff; /* Fondo blanco para mejor legibilidad */
+  color: #333; /* Texto negro para mejor contraste */
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.color-select:hover {
+  background-color: #e9f5ff;
+  border-color: #0056b3;
+}
+
+.color-select:focus {
+  background-color: #e9f5ff;
+  border-color: #0056b3;
+}
+
+option {
+  padding: 10px;
+  color: #000; /* Texto negro para mejor contraste en las opciones */
+}
