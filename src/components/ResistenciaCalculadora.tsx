@@ -29,9 +29,8 @@ const ResistanceCalculator: React.FC = () => {
     setBands(newBands);
   };
 
-  const calculateResistance = (): number => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [band1, band2, band3, multiplier] = bands.map(
+  const calculateResistance = (): number => {    
+    const [band1, band2,, multiplier] = bands.map(
       (color) => colorCodes[color]
     );
     const resistanceValue = (band1 * 10 + band2) * Math.pow(10, multiplier);
