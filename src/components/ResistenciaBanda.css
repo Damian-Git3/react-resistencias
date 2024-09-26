@@ -12,8 +12,8 @@
   padding: 10px 15px;
   border-radius: 8px;
   border: 2px solid #007bff;
-  background-color: #fff; /* Fondo blanco para mejor legibilidad */
-  color: #333; /* Texto negro para mejor contraste */
+  background-color: #fff;
+  color: #333;
   font-size: 1em;
   transition: border-color 0.3s ease;
   outline: none;
@@ -31,5 +31,5 @@
 
 option {
   padding: 10px;
-  color: #000; /* Texto negro para mejor contraste en las opciones */
+  color: #000;
 }

@@ -16,8 +16,8 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #1e1e1e; /* Fondo gris oscuro más claro */
-  color: white; /* Texto blanco para mejor contraste */
+  background-color: #1e1e1e;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
