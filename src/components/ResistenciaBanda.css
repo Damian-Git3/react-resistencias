@@ -10,6 +10,7 @@
   padding-right: 20px; /* Añadir padding a los lados */
   box-sizing: border-box; /* Asegurar que el padding se incluya en el ancho total */
   width: 100%; /* Asegurar que el contenedor ocupe el 100% del ancho disponible */
+  max-width: 100%; /* Asegurar que el contenedor no se salga del ancho disponible */
 }
 
 .color-select {
@@ -23,6 +24,8 @@
   outline: none;
   width: 100%; /* Asegurar que el select ocupe el 100% del ancho del contenedor */
   box-sizing: border-box; /* Asegurar que el padding se incluya en el ancho total */
+  min-width: 150px; /* Añadir un ancho mínimo para evitar que el texto se corte */
+  max-width: 100%; /* Asegurar que el select no se salga del contenedor */
 }
 
 .color-select:hover {
@@ -38,10 +41,4 @@
 option {
   padding: 10px;
   color: #000;
-}
-
-@media (min-width: 768px) {
-  .band {
-    max-width: 600px; /* Ajustar el ancho máximo en pantallas más grandes */
-  }
 }
