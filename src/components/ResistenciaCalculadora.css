@@ -55,9 +55,3 @@
     justify-content: space-around;
   }
 }
-
-@media (min-width: 1024px) {
-  .calculator {
-    max-width: 600px;
-  }
-}
